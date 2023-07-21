@@ -27,3 +27,4 @@ os.mkdir(file_path)
 dados.to_csv(file_path + 'dados_brutos.csv')
 dados[['datetime', 'tempmin', 'temp', 'tempmax']].to_csv(file_path + 'temperaturas.csv')
 dados[['datetime', 'description', 'icon']].to_csv(file_path + 'condicoes.csv')
+
